@@ -1,0 +1,30 @@
+.selected-product {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items with space between them */
+}
+
+.selected-product img {
+    margin-right: 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.selected-product input[type="number"] {
+    width: 150px;
+    text-align: center; /* Center-align the input value */
+    margin-right: 5px;
+}
+
+.selected-product button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
